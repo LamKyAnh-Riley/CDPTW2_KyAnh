@@ -104,11 +104,11 @@
            <div class="container">
               <div class="row-base row">
                  <div class="col-base text-left-md col-md-4">
-                    <a class="brand" href="/joomla/go.arch/">
+                    <a class="brand" href="#">
                     go<span class="text-primary">.</span>arch						</a>
                  </div>
                  <div class="text-center-md col-base col-md-4">
-                    <a href="https://themeforest.net/user/codepedant/portfolio" class="author-link">
+                    <a href="#" class="author-link">
                     by CodePedant		              </a>
                  </div>
                  <div class="text-right-md col-base col-md-4">
