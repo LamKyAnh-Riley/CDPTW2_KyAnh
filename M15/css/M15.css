@@ -1,0 +1,95 @@
+.type-M15 {
+  position: relative;
+  overflow: hidden; }
+
+h1, .h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 8vmin;
+  line-height: 1.2;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: #3d3d3d; }
+
+h4, .h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.125em;
+  line-height: 1.35;
+  font-weight: normal;
+  color: #3d3d3d;
+  letter-spacing: 0.2em;
+  text-transform: uppercase; }
+
+a {
+  color: #c4a37d;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out; }
+
+a:hover, a:focus {
+  color: #c4a37d;
+  outline: none;
+  text-decoration: none; }
+
+.bg-breadcrumb {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.breadcrumb {
+  padding: 0px 0px;
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: transparent;
+  color: white;
+  border-radius: 0px;
+  z-index: 99999;
+  position: relative;
+  text-align: right;
+  float: right; }
+
+.breadcrumb > .active {
+  color: white; }
+
+.breadcrumb > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #c4a37d; }
+
+.slider {
+  background: url("../images/imgM15.png");
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.main {
+  position: relative;
+  overflow: hidden;
+  min-height: 420px; }
+
+.main-inner {
+  position: relative;
+  z-index: 1;
+  min-height: 0;
+  padding: 33.7vmin 0 11.7vmin; }
+
+.main-inner:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #171717;
+  opacity: 0.6; }
+
+.main-header {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: right;
+  padding-left: 38.5vmin; }
+
+.main-header h1 {
+  color: white;
+  margin: 0;
+  margin-right: -0.32em; }

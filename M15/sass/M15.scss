@@ -1,0 +1,119 @@
+$color-a: rgb(77%, 64%, 49%);
+$color-h: rgb(24%, 24%, 24%);
+$color-white: rgb(100%, 100%, 100%);
+$position-re: relative;
+$position-ab: absolute;
+$font-fml: "Oswald", sans-serif;
+
+.type-M15 {
+  position: $position-re;
+  overflow: hidden;
+}
+
+h1,
+.h1 {
+  font-family: $font-fml;
+  font-weight: 400;
+  font-size: 8vmin;
+  line-height: 1.2;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: $color-h;
+}
+
+h4,
+.h4 {
+  font-family: $font-fml;
+  font-size: 1.125em;
+  line-height: 1.35;
+  font-weight: normal;
+  color: $color-h;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+a {
+  color: $color-a;
+  -webkit-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
+}
+a:hover,
+a:focus {
+  color: $color-a;
+  outline: none;
+  text-decoration: none;
+}
+
+//bg-img
+.bg-breadcrumb {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.breadcrumb {
+  padding: 0px 0px;
+  margin-bottom: 0px;
+  list-style: none;
+  background-color: transparent;
+  color: $color-white;
+  border-radius: 0px;
+  z-index: 99999;
+  position: $position-re;
+  text-align: right;
+  float: right;
+}
+.breadcrumb>.active {
+    color: $color-white;
+}
+
+
+.breadcrumb>li+li:before {
+    content: "/\00a0";
+    padding: 0 5px;
+    color: $color-a;
+}
+.slider {
+  background: url("../images/imgM15.png");
+  background-position: 50% 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+//main
+.main {
+  position: $position-re;
+  overflow: hidden;
+  min-height: 420px;
+}
+
+.main-inner {
+  position: $position-re;
+  z-index: 1;
+  min-height: 0;
+  padding: 33.7vmin 0 11.7vmin;
+}
+
+.main-inner:after {
+  content: "";
+  position: $position-ab;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background-color: #171717;
+  opacity: 0.6;
+}
+
+.main-header {
+  position: $position-re;
+  z-index: 2;
+  color: $color-white;
+  text-align: right;
+  padding-left: 38.5vmin;
+}
+
+.main-header h1 {
+  color: $color-white;
+  margin: 0;
+  margin-right: -0.32em;
+}
