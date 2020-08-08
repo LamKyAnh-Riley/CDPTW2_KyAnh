@@ -14,8 +14,9 @@
 
 <div class="type-M7">
     <div class="container">
-      <div id="wrap-contact-form">
+      <div id="wrap-contact-form98">
         <section class="contacts section">
+           <div id="wrap-contact-form98">
              <div class="container">
                 <header class="section-header">
                    <h2 class="section-title">Get <span class="text-primary">in touch</span></h2>
@@ -33,22 +34,22 @@
                     <div class="col-base  col-md-8">
                        <div class="sscf-form-container">
                           <div class="sscf-success-message"></div>
-                          <form id="formBody" class='sscf-form wprt-contact-form' method="post" action="post">
+                          <form id="formBody98" class='sscf-form wprt-contact-form' method="post" action="">
                              <div class="row-field row">
                                 <div class="col-field col-sm-6 col-md-4">
                                    <div class="form-group">
                                       <div class='fl_wrap sscf-valid-true'>
                                          <span class="sscf-error">Please, enter your name</span>
-                                         <input class="form-control" type="text" id="name" name="name" />
-                                         <label class="fl_label" for="name">Name</label>
+                                         <input class="form-control" type="text" id="name98" name="name98" />
+                                         <label class="fl_label" for="name98">Name</label>
                                       </div>
                                    </div>
                                    <div class="form-group">
                                       <div class='fl_wrap sscf-valid-true'>
                                          <span class="sscf-error">Please, enter your e-mail address</span>
                                          <span class="sscf-error sscf-email-error">Mail address is not not valid</span>
-                                         <input class="form-control" type="text" id="email" name="email" onkeydown="return check(event);"/>
-                                         <label class="fl_label" for="email">E-mail</label>
+                                         <input class="form-control" type="text" id="email98" name="email98" onkeydown="return check(event);"/>
+                                         <label class="fl_label" for="email98">E-mail</label>
                                       </div>
                                    </div>
                                 </div>
@@ -56,15 +57,15 @@
                                    <div class="form-group">
                                       <div class='fl_wrap sscf-valid-true'>
                                          <span class="sscf-error">Please, enter your phone number</span>
-                                         <input class="form-control" type="text" id="phone" name="phone" />
-                                         <label class="fl_label" for="phone">Phone number</label>
+                                         <input class="form-control" type="text" id="phone98" name="phone98" />
+                                         <label class="fl_label" for="phone98">Phone number</label>
                                       </div>
                                    </div>
                                    <div class="form-group">
                                       <div class='fl_wrap sscf-valid-false'>
                                          <span class="sscf-error"></span>
-                                         <input class="form-control" type="text" id="input_custom_one" name="input_custom_one"/>
-                                         <label class="fl_label" for="input_custom_one">Company</label>
+                                         <input class="form-control" type="text" id="input_custom_one98" name="input_custom_one98"/>
+                                         <label class="fl_label" for="input_custom_one98">Company</label>
                                       </div>
                                    </div>
                                 </div>
@@ -72,17 +73,17 @@
                                    <div class="form-group">
                                       <div class='fl_wrap sscf-valid-true'>
                                          <span class="sscf-error">Please, enter your message</span>
-                                         <textarea class="form-control" id="message" name="message" rows="5" cols="20"></textarea>
-                                         <label class="fl_label" for="message">Message</label>
+                                         <textarea class="form-control" id="message98" name="message98" rows="5" cols="20" /></textarea>
+                                         <label class="fl_label" for="message98">Message</label>
                                       </div>
                                    </div>
                                 </div>
                                 <div class="form-group">
-                                   <input type="hidden" name="send" value="true">
+                                   <input type="hidden" name="send98" value="true">
                                 </div>
                              </div>
                              <div class="form-submit text-right">
-                                <input class='rf_submit btn btn-shadow-2 wow swing' type="submit" value="Send" id="send" name="submitcontactform" />
+                                <input class='rf_submit btn btn-shadow-2 wow swing' type="submit" value="Send" id="send98" name="submitcontactform98" />
                              </div>
                           </form>
                           <!-- /.wprt-contact-form -->
@@ -95,7 +96,7 @@
                     <!-- /.col-md-12 -->
                  </div>
               </div>
-            </div>
+           </div>
         </section>
 
         <!-- Footer -->
@@ -116,7 +117,5 @@
               </div>
            </div>
         </footer>
-
     </div>
-  </div>
 </div>
