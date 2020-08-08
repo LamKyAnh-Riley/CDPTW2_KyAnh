@@ -1,0 +1,49 @@
+.type-M28 .content .blog-article .blog-article-category h4 {
+  font-size: 18px;
+  gap: normal;
+  letter-spacing: 3.6px;
+  line-height: 24.3px;
+  margin: 10px 0px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #000; }
+.type-M28 .content .blog-article h6 {
+  color: #737373;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 13.2px;
+  margin: 10px 0px;
+  text-align: center; }
+  .type-M28 .content .blog-article .read-more h4 {
+    font-family: 'montserratsemibold';
+    font-size: 1.125em;
+    line-height: 1.35;
+    font-weight: normal;
+    color: #3d3d3d;
+    letter-spacing: 0.2em;
+    text-transform: uppercase; }
+.type-M28 .content .blog-article a {
+  color: inherit; }
+  .type-M28 .content .blog-article a:hover, .type-M28 .content .blog-article a:focus {
+    color: #c5a47e !important;
+    outline: none;
+    text-decoration: none; }
+.type-M28 .content .blog-article-title h2 {
+  color: #3e3e3d;
+  display: inline;
+  font-size: 35px;
+  gap: normal;
+  letter-spacing: 11.2px;
+  line-height: 38.5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-indent: inherit; }
+  .type-M28 .content .blog-article-title h2 a {
+    color: #3d3d3d;
+    -webkit-transition: color 0.3s ease-out;
+    -o-transition: color 0.3s ease-out;
+    transition: color 0.3s ease-out; }
+    .type-M28 .content .blog-article-title h2 a:hover, .type-M28 .content .blog-article-title h2 a:focus {
+      color: #c5a47e;
+      outline: none;
+      text-decoration: none; }
