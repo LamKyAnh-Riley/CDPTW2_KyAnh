@@ -12,9 +12,9 @@
 
     $scss = new Compiler();
 
-    $result = $scss->compile('@import"sass/M7.scss"');
+    $result = $scss->compile('@import"sass/M16.scss"');
 
-    file_put_contents("css/M7.css",$result);
+    file_put_contents("css/M16.css",$result);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -24,14 +24,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo $url_path ?>/font/font-awesome-4.7.0/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $url_path ?>/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo $url_path ?>/css/M7.css">
+    <link rel="stylesheet" href="<?php echo $url_path ?>/css/M16.css">
     <script src="<?php echo $url_path ?>/js/jquery-3.2.0.min.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
-    <title>Modul M7</title>
+    <title>Modul M16</title>
 </head>
 
 <body>
-    <?php include 'M7-content.php' ?>
+    <?php include 'M16-content.php' ?>
 </body>
 
 </html>

@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
         <div class="container">
             <header class="main-header">
                 <h1>BLOG - LIST</h1>
-                <h4 class="desc"></h4>
+                <h4 class="desc">&nbsp;</h4>
             </header>
 
             <ol class="breadcrumb">
