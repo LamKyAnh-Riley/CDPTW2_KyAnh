@@ -57,9 +57,9 @@
   height: 3.1em;
   border-radius: 0.75em;
   padding-left: 22px;
-  color: #666666;
-  background-color: #f3f3f3;
-  border: 1px solid #f3f3f3;
+  color: #666;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
   -webkit-box-shadow: none;
   box-shadow: none;
   -webkit-appearance: none;
@@ -71,20 +71,20 @@
   padding-top: 1.1em;
   resize: none; }
   .type-M7 .form-control:focus {
-    border-color: #c5a47e;
-    background-color: #fff;
+    border-color: #c4a37d;
+    background-color: white;
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none; }
 .type-M7 .form-group {
   margin-bottom: 10px; }
   .type-M7 .form-control::-moz-placeholder {
-    color: #666666;
+    color: #666;
     opacity: 1; }
   .type-M7 .form-control:-ms-input-placeholder {
-    color: #666666; }
+    color: #666; }
   .type-M7 .form-control::-webkit-input-placeholder {
-    color: #666666; }
+    color: #666; }
 .type-M7 .sscf-form {
   font-size: 1.15em;
   position: relative; }
@@ -144,7 +144,7 @@
   z-index: 90;
   margin-top: 12px;
   right: 15px;
-  color: #dc0000;
+  color: #db0000;
   pointer-events: none;
   opacity: 0;
   transition: all 0.3s ease; }
@@ -155,7 +155,7 @@
   .type-M7 .sscf-email-valid-error .sscf-error.sscf-email-error {
     opacity: 1; }
 .type-M7 .sscf-input.error {
-  border-color: #dc0000 !important; }
+  border-color: #db0000 !important; }
 .type-M7 .sscf-footer {
   opacity: 0.8;
   margin: 10px 0 15px; }
@@ -171,20 +171,20 @@
   font-family: 'montserratsemibold';
   position: relative;
   display: inline-block;
-  border: 0.2em solid #c5a47e;
+  border: 0.2em solid #c4a37d;
   border-radius: 30px;
   padding: 14px 36px;
   font-size: 0.875em;
-  color: #fff;
+  color: white;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   text-decoration: none;
-  background-color: #c5a47e;
+  background-color: #c4a37d;
   border: 0;
   -webkit-transition: all 0.3s ease-out !important;
   transition: all 0.3s ease-out !important; }
   .type-M7 .btn:hover, .type-M7 .btnfocus {
-    color: #fff;
+    color: white;
     background-color: #cc9f6b;
     -webkit-box-shadow: none;
     box-shadow: none;

@@ -17,19 +17,19 @@
     .type-M19 .widget_categories li span.catCounter {
       float: right; }
     .type-M19 .widget_categories li a {
-      color: #c5a47e;
+      color: #c4a37d;
       -webkit-transition: color 0.3s ease-out;
       -o-transition: color 0.3s ease-out;
       transition: color 0.3s ease-out; }
       .type-M19 .widget_categories li a:hover, .type-M19 .widget_categories li a:focus {
-        color: #c5a47e;
+        color: #c4a37d;
         outline: none;
         text-decoration: none; }
 .type-M19 div.k2SearchBlock form input.inputbox {
   width: 100%;
   padding: 10px 10px;
-  border: 2px solid #c5a47e;
-  color: #c5a47e;
+  border: 2px solid #c4a37d;
+  color: #c4a37d;
   outline: none;
   font-family: 'Oswald', sans-serif;
   font-weight: 400; }
@@ -73,7 +73,7 @@
     -o-transition: color 0.3s ease-out;
     transition: color 0.3s ease-out; }
     .type-M19 h4 a:hover, .type-M19 .h4 a:hover, .type-M19 h4 a:focus, .type-M19 .h4 a:focus {
-      color: #c5a47e;
+      color: #c4a37d;
       outline: none;
       text-decoration: none; }
 .type-M19 .blog-tags {
@@ -93,12 +93,6 @@
     -webkit-transition: all 0.2s;
     transition: all 0.2s; }
     .type-M19 .blog-tags a:hover {
-      background-color: #c5a47e;
+      background-color: #c4a37d;
       text-decoration: none;
       color: #fff; }
-.type-M19 .blog-title {
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
-  font-size: 1.5em;
-  line-height: 1.333;
-  margin: 1.8em 0 0.8em; }

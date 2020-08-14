@@ -1,35 +1,39 @@
-
+$font-fml-mont: 'montserratsemibold';
+$font-fml-os: 'Oswald', sans-serif;
+//color
+$color-h4: rgb(24%, 24%, 24%);
+$colot-a: rgb(77%, 64%, 49%);
 .type-M19{
   //widget
   .widget {
   	margin-bottom: 3.65em;
   }
   .widget-title {
-  	font-family: 'montserratsemibold';
+  	font-family: $font-fml-mont;
   	font-weight: normal;
   	font-size: 1.3em;
   	text-transform: uppercase;
   	text-align: center;
   	margin: 0 0 2.25em 0;
-  	color: hsl(0, 0%, 24%);
+  	color: $color-h4;
   	line-height: 22.88px;
     font-weight: bold;
   }
   .widget_categories {
   	li {
   		margin-bottom: 15px;
-  		font-family: 'Oswald', sans-serif;
+  		font-family: $font-fml-os;
   		font-weight: 400;
   		span.catCounter {
   			float: right;
   		}
       a {
-        color: #c5a47e;
+        color: $colot-a;
       	-webkit-transition: color .3s ease-out;
       	-o-transition: color .3s ease-out;
   	     transition: color .3s ease-out;
         &:hover, &:focus {
-          color: #c5a47e;
+          color: $colot-a;
       		outline: none;
       		text-decoration: none;
         }
@@ -44,10 +48,10 @@
   		input.inputbox {
   			width: 100%;
   			padding: 10px 10px;
-  			border: 2px solid #c5a47e;
-  			color: #c5a47e;
+  			border: 2px solid $colot-a;
+  			color: $colot-a;
   			outline: none;
-  			font-family: 'Oswald', sans-serif;
+  			font-family: $font-fml-os;
   			font-weight: 400;
   		}
   	}
@@ -75,7 +79,7 @@
   	padding-left: 11.2em;
   }
   .recent-post-title {
-  	font-family: 'Oswald', sans-serif;
+  	font-family: $font-fml-os;
   	font-weight: 400;
   	font-size: 1.1em;
   	line-height: 1.45;
@@ -86,17 +90,17 @@
   }
   .recent-post-time{
     font-size: 0.88em;
-    color:#b4b4b4;
+    color: #b4b4b4;
     margin-bottom: 2em;
   }
 
   //h4
   h4, .h4 {
-    font-family: 'montserratsemibold';
+    font-family: $font-fml-mont;
     font-size: 1.125em;
     line-height: 1.35;
     font-weight: normal;
-    color: #3d3d3d;
+    color: $color-h4;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     a {
@@ -105,7 +109,7 @@
     	-o-transition: color .3s ease-out;
 	     transition: color .3s ease-out;
       &:hover, &:focus {
-        color: #c5a47e;
+        color: $colot-a;
     		outline: none;
     		text-decoration: none;
       }
@@ -114,7 +118,7 @@
 
   //blog
   .blog-tags {
-  	font-family: 'montserratsemibold';
+  	font-family: $font-fml-mont;
   	margin-top: -0.8em;
   	a {
   		display: inline-block;
@@ -130,7 +134,7 @@
   		-webkit-transition: all 0.2s;
   		transition: all 0.2s;
   		&:hover {
-  			background-color: #c5a47e;
+  			background-color: $colot-a;
   			text-decoration: none;
   			color: #fff;
   		}

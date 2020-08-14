@@ -1,14 +1,5 @@
-$color-tittle:hsl(0, 0%, 24%);
-$color-text:hsl(0, 0%, 71%);
-
-
-@mixin re-content($number) {
-    -webkit-line-clamp: $number;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    display: -webkit-box;
-}
-
+$color-a-hv-fc: rgb(77%, 64%, 49%);
+$color-h4: rgb(24%, 24%, 24%);
 .type-M28 {
     .content{
       .blog-article{
@@ -25,7 +16,7 @@ $color-text:hsl(0, 0%, 71%);
           }
         }
         h6 {
-        	color: hsl(0, 0%, 45%);
+        	color: #737373;
         	font-size: 12px;
         	font-weight: 500;
         	line-height: 13.2px;
@@ -39,7 +30,7 @@ $color-text:hsl(0, 0%, 71%);
           	font-size: 1.125em;
           	line-height: 1.35;
           	font-weight: normal;
-          	color: #3d3d3d;
+          	color: $color-h4;
           	letter-spacing: 0.2em;
           	text-transform: uppercase;
           }
@@ -48,7 +39,7 @@ $color-text:hsl(0, 0%, 71%);
           color: inherit;
             &:hover,
             &:focus {
-              color: #c5a47e !important;
+              color: $color-a-hv-fc !important;
               outline: none;
               text-decoration: none;
             }
@@ -56,7 +47,7 @@ $color-text:hsl(0, 0%, 71%);
       }
       .blog-article-title{
         h2{
-          color:hsl(60, 1%, 24%);
+          color: #3E3E3D;
           display:inline;
           font-size:35px;
           gap:normal;
@@ -66,18 +57,17 @@ $color-text:hsl(0, 0%, 71%);
           text-transform:uppercase;
           text-indent: inherit;
           a {
-          	color: hsl(0, 0%, 24%);
+          	color: $color-h4;
           	-webkit-transition: color .3s ease-out;
           	-o-transition: color .3s ease-out;
           	transition: color .3s ease-out;
           	&:hover, &:focus {
-          		color: #c5a47e;
+          		color: $color-a-hv-fc;
           		outline: none;
               text-decoration: none;
           	}
           }
         }
       }
-
   }
 }

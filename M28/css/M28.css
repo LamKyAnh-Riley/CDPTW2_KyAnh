@@ -25,11 +25,11 @@
 .type-M28 .content .blog-article a {
   color: inherit; }
   .type-M28 .content .blog-article a:hover, .type-M28 .content .blog-article a:focus {
-    color: #c5a47e !important;
+    color: #c4a37d !important;
     outline: none;
     text-decoration: none; }
 .type-M28 .content .blog-article-title h2 {
-  color: #3e3e3d;
+  color: #3E3E3D;
   display: inline;
   font-size: 35px;
   gap: normal;
@@ -44,6 +44,6 @@
     -o-transition: color 0.3s ease-out;
     transition: color 0.3s ease-out; }
     .type-M28 .content .blog-article-title h2 a:hover, .type-M28 .content .blog-article-title h2 a:focus {
-      color: #c5a47e;
+      color: #c4a37d;
       outline: none;
       text-decoration: none; }

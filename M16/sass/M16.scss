@@ -1,4 +1,9 @@
-
+$font-fml-mont: 'montserratsemibold';
+//color
+$color-a: rgb(77%, 64%, 49%);
+$color-white: rgb(100%, 100%, 100%);
+$color-blog-tag-bg-color: rgb(93%, 93%, 93%);
+$color-blog-meta: rgb(71%, 71%, 71%);
 .type-M16{
   div.itemContainer {
   	float: left;
@@ -9,12 +14,12 @@
     text-decoration: none;
   }
   a {
-  	color: #c5a47e;
+  	color: $color-a;
   	-webkit-transition: color .3s ease-out;
   	-o-transition: color .3s ease-out;
   	transition: color .3s ease-out;
     &:hover, &focus {
-  		color: #c5a47e;
+  		color: $color-a;
   		outline: none;
       text-decoration: none;
   	}
@@ -25,7 +30,7 @@
   	position: relative;
   	margin-bottom: 3em;
   	margin-right: 1px;
-  	background-color: #fff;
+  	background-color: $color-white;
   	box-shadow: 0 1px 15px rgba(0,0,0,0.08);
   }
   .blog-thumbnail {
@@ -36,26 +41,26 @@
     padding: 3.3em 3em;
     p {
     	margin-bottom: 0;
-    	color: hsl(0, 0%, 45%);
+    	color: #737373;
     	line-height: 26.4px;
     }
     .blog-meta {
-  		border-top: 1px solid #ededed;
+  		border-top: 1px solid $color-blog-tag-bg-color;
   		margin-top: 1.7em;
   		padding-top: 1.7em;
       font-size: 0.88em;
-    	color: #b4b4b4;
+    	color: $color-blog-meta;
     	overflow: hidden;
       .author {
     		float: left;
     		a {
-    			font-family: 'montserratsemibold';
-    			color: #b4b4b4;
+    			font-family: $font-fml-mont;
+    			color: $color-blog-meta;
           font-size: 14px;
           line-height: 24px;
     			&:hover {
     				text-decoration: none;
-    				color: #c5a47e;
+    				color: $color-a;
     			}
     		}
     	}
@@ -65,7 +70,7 @@
   	}
   }
   .blog-tags {
-  	font-family: 'montserratsemibold';
+  	font-family: $font-fml-mont;
   	margin-top: -0.8em;
     a {
     	display: inline-block;
@@ -73,7 +78,7 @@
     	line-height: 1;
     	padding: 0.77em 1.1em 0.77em;
     	border-radius: 2em;
-    	background-color: #ededed;
+    	background-color: $color-blog-tag-bg-color;
     	text-transform: uppercase;
     	color: #6f6f6f;
     	margin-top: 0.8em;
@@ -81,9 +86,9 @@
     	-webkit-transition: all 0.2s;
     	transition: all 0.2s;
     	&:hover {
-    		background-color: #c5a47e;
+    		background-color: $color-a;
     		text-decoration: none;
-    		color: #fff;
+    		color: $color-white;
     	}
     }
   }
@@ -99,7 +104,7 @@
   .read-more {
     margin-top: 2.8em;
   	display: inline-block;
-  	font-family: 'montserratsemibold';
+  	font-family: $font-fml-mont;
   	font-size: 0.88em;
   	letter-spacing: 0.1em;
   	text-transform: uppercase;
@@ -139,8 +144,8 @@
   			border-radius: 100px;
   			text-decoration: none;
         &:hover {
-  				color: #fff;
-  				background-color: #c5a47e;
+  				color: $color-white;
+  				background-color: $color-a;
           text-decoration: none;
   			}
         i {
@@ -150,44 +155,44 @@
   	}
     >.disabled {
   		>a {
-  			color: #fff;
-  			background-color: #c5a47e;
+  			color: $color-white;
+  			background-color: $color-a;
   			cursor: default;
   			&:hover {
-  				color: #fff;
-  				background-color: #c5a47e;
+  				color: $color-white;
+  				background-color: $color-a;
   				cursor: default;
   			}
   		}
   	}
   	>.active {
   		>a {
-  			color: #fff;
-  			background-color: #c5a47e;
+  			color: $color-white;
+  			background-color: $color-a;
   			cursor: default;
   			&:focus {
-  				color: #fff;
-  				background-color: #c5a47e;
+  				color: $color-white;
+  				background-color: $color-a;
   				cursor: default;
   			}
   			&:hover {
-  				color: #fff;
-  				background-color: #c5a47e;
+  				color: $color-white;
+  				background-color: $color-a;
   				cursor: default;
   			}
   		}
   		>span {
-  			color: #fff;
-  			background-color: #c5a47e;
+  			color: $color-white;
+  			background-color: $color-a;
   			cursor: default;
   			&:focus {
-  				color: #fff;
-  				background-color: #c5a47e;
+  				color: $color-white;
+  				background-color: $color-a;
   				cursor: default;
   			}
   			&:hover {
-  				color: #fff;
-  				background-color: #c5a47e;
+  				color: $color-white;
+  				background-color: $color-a;
   				cursor: default;
   			}
   		}
